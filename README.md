@@ -1,7 +1,7 @@
-> essential appstore精华
-> editor choice 所有编辑精选
-> editor choice app 编辑精选app
-> editor choice game 编辑精选游戏
+- essential appstore精华
+- editor choice 所有编辑精选
+- editor choice app 编辑精选app
+- editor choice game 编辑精选游戏
 
 ### VIP_Back
 
