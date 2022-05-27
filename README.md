@@ -71,6 +71,7 @@
 |                   |          |   Photomath   | Document & PdfExpert⭐︎ |             |  B612咔叽⭐︎   |    Pixiv⭐︎    | 音频剪辑提取 |
 |                   |          |   Symbolab    |       石墨文档        |             | 马卡龙玩图⭐︎  |   Spotify⭐︎   |              |
 |                   |          | wolframalpha⭐︎ |         幕布          |             |              |              |              |
+|                   |          |   财新周刊⭐︎   |                       |             |              |              |              |
 
 
 
