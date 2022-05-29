@@ -1,5 +1,4 @@
-var obj = JSON.parse($response.body);
-obj = {
+var obj = {
     "environment": "Production",
     "receipt": {
       "receipt_type": "Production",
