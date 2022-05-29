@@ -381,3 +381,50 @@ if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) 
   };
 $done({ body: JSON.stringify(mubiao_obj) });
 }
+
+
+//Taio
+if (header["User-Agent"].indexOf("Taio") != -1) {
+  var taio_obj = {
+    "request_date":"2022-04-23T21:10:07Z",
+    "request_date_ms":1650748207750,
+    "subscriber":
+    {
+        "entitlements":
+        {
+            "full-version":
+            {
+                "expires_date":"2023-05-07T19:40:59Z",
+                "grace_period_expires_date":null,
+                "product_identifier":"taio_1499_1y_2w0_std_v2",
+                "purchase_date":"2022-04-23T19:40:59Z"
+            }
+        },
+        "first_seen":"2022-04-23T19:40:08Z",
+        "last_seen":"2022-04-23T19:40:08Z",
+        "management_url":"https://apps.apple.com/account/subscriptions",
+        "non_subscriptions":{},
+        "original_app_user_id":"$RCAnonymousID:8798471e10fe48faa3dea581595aff8b",
+        "original_application_version":"842",
+        "original_purchase_date":"2022-04-23T19:39:38Z",
+        "other_purchases":{},
+        "subscriptions":
+        {
+            "taio_1499_1y_2w0_std_v2":
+            {
+                "billing_issues_detected_at":null,
+                "expires_date":"2023-05-07T19:40:59Z",
+                "grace_period_expires_date":null,
+                "is_sandbox":false,
+                "original_purchase_date":"2022-04-23T19:41:00Z",
+                "ownership_type":"PURCHASED",
+                "period_type":"trial",
+                "purchase_date":"2022-04-23T19:40:59Z",
+                "store":"app_store",
+                "unsubscribe_detected_at":"null"
+            }
+        }
+    }
+  };
+$done({ body: JSON.stringify(taio_obj) });
+}
