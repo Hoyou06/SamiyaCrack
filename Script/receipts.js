@@ -340,3 +340,44 @@ if (header["User-Agent"].indexOf("Motivation") != -1) {
   }
   $done({ body: JSON.stringify(mo_obj) });
 }
+
+//目标地图
+if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) {
+  var mubiao_obj = {
+    "request_date": "2022-05-29T11:01:38Z",
+    "request_date_ms": 1653822098636,
+    "subscriber": {
+      "entitlements": {
+        "pro": {
+          "expires_date": "2099-06-05T10:59:01Z",
+          "grace_period_expires_date": null,
+          "product_identifier": "com.happydogteam.relax.yearlyPro",
+          "purchase_date": "2022-05-29T10:59:01Z"
+        }
+      },
+      "first_seen": "2022-05-29T11:01:38Z",
+      "last_seen": "2022-05-29T11:01:38Z",
+      "management_url": "https://apps.apple.com/account/subscriptions",
+      "non_subscriptions": {},
+      "original_app_user_id": "$RCAnonymousID:b9dcbf3abc344855b04ded272e94d5fc",
+      "original_application_version": "103",
+      "original_purchase_date": "2021-10-18T04:16:54Z",
+      "other_purchases": {},
+      "subscriptions": {
+        "com.happydogteam.relax.yearlyPro": {
+          "billing_issues_detected_at": null,
+          "expires_date": "2099-06-05T10:59:01Z",
+          "grace_period_expires_date": null,
+          "is_sandbox": false,
+          "original_purchase_date": "2022-05-29T10:59:02Z",
+          "ownership_type": "PURCHASED",
+          "period_type": "trial",
+          "purchase_date": "2022-05-29T10:59:01Z",
+          "store": "app_store",
+          "unsubscribe_detected_at": "2022-05-29T11:01:38Z"
+        }
+      }
+    }
+  };
+$done({ body: JSON.stringify(mubiao_obj) });
+}
