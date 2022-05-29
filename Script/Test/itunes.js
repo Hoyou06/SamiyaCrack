@@ -17,7 +17,7 @@ obj["latest_receipt_info"][0]["is_trial_period"] = "true";
 obj["latest_receipt_info"][0]["is_in_intro_offer_period"] = "false";
 obj["latest_receipt_info"][0]["in_app_ownership_type"] = "PURCHASED";
 */
-
+var bundle_id = obj.receipt["bundle_id"];
 if (bundle_id == "com.digitalworkroom.noted") {
   obj ={
     "environment": "Production",
