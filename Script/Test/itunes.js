@@ -55,7 +55,7 @@ if (bundle_id == "com.digitalworkroom.noted") {
           "expires_date_ms": "1653692459000",
           "expires_date_pst": "2099-05-27 16:00:59 America/Los_Angeles",
           "web_order_line_item_id": "500000479581138",
-          "is_trial_period": "true",
+          "is_trial_period": "false",
           "is_in_intro_offer_period": "false",
           "in_app_ownership_type": "PURCHASED"
         }
@@ -76,7 +76,7 @@ if (bundle_id == "com.digitalworkroom.noted") {
       "expires_date_ms": "1653692459000",
       "expires_date_pst": "2099-05-27 16:00:59 America/Los_Angeles",
       "web_order_line_item_id": "500000479581138",
-      "is_trial_period": "true",
+      "is_trial_period": "false",
       "is_in_intro_offer_period": "false",
       "in_app_ownership_type": "PURCHASED",
       "subscription_group_identifier": "20421642",
@@ -89,10 +89,10 @@ if (bundle_id == "com.digitalworkroom.noted") {
       "is_in_billing_retry_period": false,
       "product_id": "com.digitalworkroom.noted.plus.month",
       "original_transaction_id": "500001078320278",
-      "auto_renew_status": "0"
+      "auto_renew_status": "1"
     },
     "status": 0,
-    "hasFreeTrial": true,
+    "hasFreeTrial": false,
     "valid": false
   }
 }
