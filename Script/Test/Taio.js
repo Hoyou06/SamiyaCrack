@@ -36,7 +36,7 @@ obj =
                     "period_type":"trial",
                     "purchase_date":"2022-04-23T19:40:59Z",
                     "store":"app_store",
-                    "unsubscribe_detected_at":"2022-04-23T19:42:14Z"
+                    "unsubscribe_detected_at":"null"
                 }
             }
         }

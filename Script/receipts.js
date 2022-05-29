@@ -132,7 +132,7 @@ if (header["User-Agent"].indexOf("MOZE") != -1) {
           "period_type": "trial",
           "purchase_date": "2022-05-24T19:06:55Z",
           "store": "app_store",
-          "unsubscribe_detected_at": "2022-05-24T19:39:43Z"
+          "unsubscribe_detected_at": "null"
         }
       }
     }
@@ -164,7 +164,7 @@ if (header["User-Agent"].indexOf("totowallet") != -1) {
           "period_type": "trial",
           "purchase_date": "2022-05-24T20:54:52Z",
           "store": "app_store",
-          "unsubscribe_detected_at": "2022-05-24T21:18:35Z"
+          "unsubscribe_detected_at": "null"
         }
       }
     }
@@ -374,7 +374,7 @@ if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) 
           "period_type": "trial",
           "purchase_date": "2022-05-29T10:59:01Z",
           "store": "app_store",
-          "unsubscribe_detected_at": "2022-05-29T11:01:38Z"
+          "unsubscribe_detected_at": "null"
         }
       }
     }

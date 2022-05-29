@@ -48,7 +48,7 @@
 |          现在翻译           |  每日占星   |            |
 |      落格输入法 经典版      | ColorWidget |            |
 |          尽简衣橱           | Motivation  |            |
-|          Videorama          |             |            |
+|          Videorama          |  目标地图⭐︎  |            |
 |          发型多多           |             |            |
 |         Proknockout         |             |            |
 |            剪影             |             |            |
