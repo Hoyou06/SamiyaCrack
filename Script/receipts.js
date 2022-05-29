@@ -381,39 +381,3 @@ if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) 
   };
 $done({ body: JSON.stringify(mubiao_obj) });
 }
-
-
-//ServerCat
-if (header["User-Agent"].indexOf("lo%C3%B3na") != -1) {
-  var cat_obj = {
-    "request_date": "2022-05-28T15:28:34Z",
-    "request_date_ms": 1653751714999,
-    "subscriber": {
-      "entitlements":[0]["expires_date"] = "2099-06-07T19:06:55Z",
-      "entitlements":[0]["purchase_date"] = "2022-05-24T19:06:55Z",
-      "entitlements":[0]["grace_period_expires_date"] = null,
-      "first_seen": "2022-05-28T15:28:34Z",
-      "last_seen": "2022-05-28T15:28:34Z",
-      "management_url": null,
-      "non_subscriptions": {},
-      "original_app_user_id": "svFmUL2slJS8x392EEV18TSIw2l1",
-      "original_application_version": null,
-      "original_purchase_date": null,
-      "other_purchases": {},
-      "subscriptions":[0] = {
-        "billing_issues_detected_at": null,
-        "expires_date": "2099-06-07T19:06:55Z",
-        "grace_period_expires_date": null,
-        "is_sandbox": false,
-        "original_purchase_date": "2022-05-24T19:06:55Z",
-        "ownership_type": "PURCHASED",
-        "period_type": "trial",
-        "purchase_date": "2022-05-24T19:06:55Z",
-        "store": "app_store",
-        "unsubscribe_detected_at": null       
-      }
-    }
-
-  };
-  $done({ body: JSON.stringify(cat_obj) });
-}
