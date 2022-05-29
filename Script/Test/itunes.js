@@ -42,7 +42,7 @@ if (bundle_id == "com.digitalworkroom.noted") {
       "in_app": [
         {
           "quantity": "1",
-          "product_id": "com.digitalworkroom.noted.plus.month",
+          "product_id": "com.digitalworkroom.noted.plus.yearly",
           "transaction_id": "500001078320278",
           "original_transaction_id": "500001078320278",
           "purchase_date": "2022-05-24 23:00:59 Etc/GMT",
@@ -55,7 +55,7 @@ if (bundle_id == "com.digitalworkroom.noted") {
           "expires_date_ms": "1653692459000",
           "expires_date_pst": "2099-05-27 16:00:59 America/Los_Angeles",
           "web_order_line_item_id": "500000479581138",
-          "is_trial_period": "false",
+          "is_trial_period": "true",
           "is_in_intro_offer_period": "false",
           "in_app_ownership_type": "PURCHASED"
         }
@@ -63,7 +63,7 @@ if (bundle_id == "com.digitalworkroom.noted") {
     },
     "latest_receipt_info": {
       "quantity": "1",
-      "product_id": "com.digitalworkroom.noted.plus.month",
+      "product_id": "com.digitalworkroom.noted.plus.yearly",
       "transaction_id": "500001078320278",
       "original_transaction_id": "500001078320278",
       "purchase_date": "2022-05-24 23:00:59 Etc/GMT",
@@ -77,23 +77,21 @@ if (bundle_id == "com.digitalworkroom.noted") {
       "expires_date_pst": "2099-05-27 16:00:59 America/Los_Angeles",
       "web_order_line_item_id": "500000479581138",
       "is_trial_period": "false",
-      "is_in_intro_offer_period": "false",
+      "is_in_intro_offer_period": "true",
       "in_app_ownership_type": "PURCHASED",
       "subscription_group_identifier": "20421642",
-      "expires_date_formatted": "2022-05-27 23:00:59 Etc/GMT"
+      "expires_date_formatted": "2099-05-27 23:00:59 Etc/GMT"
     },
     "latest_receipt": "",
     "pending_renewal_info": {
       "expiration_intent": "1",
-      "auto_renew_product_id": "com.digitalworkroom.noted.plus.month",
+      "auto_renew_product_id": "com.digitalworkroom.noted.plus.yearly",
       "is_in_billing_retry_period": false,
-      "product_id": "com.digitalworkroom.noted.plus.month",
+      "product_id": "com.digitalworkroom.noted.plus.yearly",
       "original_transaction_id": "500001078320278",
       "auto_renew_status": "1"
     },
-    "status": 0,
-    "hasFreeTrial": false,
-    "valid": false
+    "status": 0
   }
 }
 $done({body: JSON.stringify(obj)});
