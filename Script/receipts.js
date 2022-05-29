@@ -384,7 +384,7 @@ $done({ body: JSON.stringify(mubiao_obj) });
 
 
 //ServerCat
-if (header["User-Agent"].indexOf("ServerCat") != -1) {
+if (header["User-Agent"].indexOf("lo%C3%B3na") != -1) {
   var cat_obj = {
     "request_date": "2022-05-28T15:28:34Z",
     "request_date_ms": 1653751714999,
@@ -396,7 +396,7 @@ if (header["User-Agent"].indexOf("ServerCat") != -1) {
       "last_seen": "2022-05-28T15:28:34Z",
       "management_url": null,
       "non_subscriptions": {},
-      "original_app_user_id": "$RCAnonymousID:71e65ddfdb21400bb4456492928297be",
+      "original_app_user_id": "svFmUL2slJS8x392EEV18TSIw2l1",
       "original_application_version": null,
       "original_purchase_date": null,
       "other_purchases": {},
