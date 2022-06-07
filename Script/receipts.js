@@ -361,7 +361,7 @@ if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) 
       "non_subscriptions": {},
       "original_app_user_id": "$RCAnonymousID:b9dcbf3abc344855b04ded272e94d5fc",
       "original_application_version": "103",
-      "original_purchase_date": "2021-10-18T04:16:54Z",
+      "original_purchase_date": "2022-05-29T10:59:02Z",
       "other_purchases": {},
       "subscriptions": {
         "com.happydogteam.relax.yearlyPro": {
