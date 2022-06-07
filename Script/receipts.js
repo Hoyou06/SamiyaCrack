@@ -378,6 +378,6 @@ if (header["User-Agent"].indexOf("%E7%9B%AE%E6%A0%87%E5%9C%B0%E5%9B%BE") != -1) 
         }
       }
     }
-  };
-$done({ body: JSON.stringify(mubiao_obj) });
+  }
+  $done({ body: JSON.stringify(mubiao_obj) });
 }
