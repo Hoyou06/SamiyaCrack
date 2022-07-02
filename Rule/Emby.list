@@ -1,0 +1,109 @@
+# NAME: EMBY
+# 关键字匹配
+HOST-KEYWORD, emby, EMBY
+
+# AGA公益服(中国电信可直连观看)
+HOST, EMBY.plusmedia.site, EMBY
+
+# CF公益服(仅限挂代理观看)
+HOST, EMBY-cf.plusmedia.site, EMBY
+
+# 备用服
+HOST, EMBY.xeton.dev, EMBY
+HOST, jellyfin.xeton.dev, EMBY
+HOST, movie.xeton.dev, EMBY
+HOST, servers.xeton.dev, EMBY
+
+# Nexitally/AmyTelecom专属服（仅限美国专用节点观看）
+HOST, EMBY.nexitally.com, EMBY
+
+# Skicat专属服
+HOST, https://skicat.tv, EMBY
+
+# Godetia专属服1（猫熊）
+HOST, EMBY.ssltd.xyz, EMBY
+
+# Godetia专属服2（3DM）
+HOST, EMBY.3DMmp.com, EMBY
+
+# TAG Porn(限制特定节点)
+DOMAIN-SUFFIX, tagEMBY.EMBYlianmeng.com,  EMBY
+# TAG
+DOMAIN-SUFFIX, EMBY.riches.cloud,  EMBY
+
+
+DOMAIN-SUFFIX, EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, plusmedia.site,  EMBY
+DOMAIN-SUFFIX, mickeycloud.com,  EMBY
+DOMAIN-SUFFIX, EMBY.mcwy.me,  EMBY
+DOMAIN-SUFFIX, EMBY.neko.edu.rs,  EMBY
+DOMAIN-SUFFIX, EMBY.ok.edu.hk,  EMBY
+DOMAIN-SUFFIX, EMBY.maying.club,  EMBY
+DOMAIN-SUFFIX, pub1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1ntt.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1sgp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub1cf.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2ntt.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2sgp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub2cf.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back1.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back2.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back3.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back4.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back5.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back6.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3back7.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3jp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3ntt.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3sgp.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, pub3cf.EMBY.wtf,  EMBY
+DOMAIN-SUFFIX, EMBY.cjpc.cc,  EMBY
+DOMAIN-SUFFIX, cristiamo.xyz,  EMBY
+IP-CIDR, 161.97.148.156/24, 🎬 EMBY, no-resolve'
+IP-CIDR, 198.204.247.154/24, 🎬 EMBY, no-resolve'
+DOMAIN-SUFFIX, hz.cristiamo.xyz,  EMBY
