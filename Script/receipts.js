@@ -1,7 +1,7 @@
 const header = $request.headers;
 
-//Filebox
-if (header["User-Agent"].indexOf("Filebox") != -1) {
+//Fileball
+if (header["User-Agent"].indexOf("Fileball") != -1) {
   var filebox_obj =
   {
     "request_date": "2020-06-05T11:54:41Z",
