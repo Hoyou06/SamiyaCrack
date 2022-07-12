@@ -32,9 +32,9 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProxyServer</key>
-			<string>192.168.2.240</string>
+			<string>192.168.2.142</string>
 			<key>ProxyServerPort</key>
-			<integer>7890</integer>
+			<integer>8899</integer>
 			<key>ProxyType</key>
 			<string>Manual</string>
 			<key>SSID_STR</key>
